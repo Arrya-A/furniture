@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --brown: rgb(56, 3, 3)
+}
+
+#logo {
+    width: 100%;
+    height: 100px;
+}
+
+.nav-item i {
+    color: rgb(142, 136, 136);
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+#contactbtn {
+    background-color: var(--brown);
+    color: white;
+}
+
+#contactbtn:hover {
+    background-color: white;
+    color: var(--brown);
+    border-color: var(--brown);
+}
+
+.main {
+    background-image: url('./images/about_img.jpg');
+    height: 120vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.welcome {
+    padding-top: 22%;
+    padding-left: 5%;
+    color: white;
+}
+
+
+.welcome h1 {
+    font-size: 105px;
+}
+
+#gallery button {
+    width: 25%;
+}
+
+
+@media(max-width:600px) {
+    .welcome h1 {
+        font-size: 50px;
+    }
+
+    .main {
+        background-position: bottom;
+    }
+
+    .nav-item i {
+        display: none;
+    }
+
+    #gallery button {
+        width: 75%;
+    }
+}
+
+.work {
+    margin-top: 10%;
+    background-image: url('./images/bgimg2.avif');
+    width: 100%;
+    height: 105%;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 4%;
+    background-position: bottom;
+}
+
+.viewBtn {
+    border-color: var(--brown);
+    color: var(--brown);
+}
+
+.viewBtn:hover {
+    background-color: var(--brown);
+    color: white;
+}
+
+.imgDiv {
+    width: 100%;
+    height: 490px;
+    border: 5px solid var(--brown);
+    padding-top: 4%;
+    padding-left: 4%;
+}
+
+.hr {
+    width: 20%;
+    height: 5px;
+    background-color: var(--brown);
+}
+
+#fur {
+    color: var(--brown);
+}
+
+#gallery {
+    padding-top: 7%;
+}
+
+#gallery h1 {
+    padding-bottom: 5%;
+    font-weight: 600;
+}
+
+.imag1 {
+    position: relative;
+}
+
+.rosewood {
+    width: 50%;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.734);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
